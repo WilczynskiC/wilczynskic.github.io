@@ -1,5 +1,53 @@
 /*This is a css file comment
 spanning 2 lines*/
 h1 {
-    font-size: 80px;
+    color: #8C522E;
+    font-size: 90px;
+    text-align: center;
+    font-family: Garamond;
 }
+
+.textOverImage {
+    opacity: 0.0;
+}
+
+.topnav {
+overflow: auto;
+margin-bottom: 20px;
+background-color: #201f1f;
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #C08C60
+;
+color: black;
+}
+
+.topnav a.active {
+background-color: #572C1E;
+color: white;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
