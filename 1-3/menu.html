@@ -2,9 +2,152 @@
 <html lang = "en-US">
     <head>
         <title>Web Design Challenge 1-3 | Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"/>
+        <style>
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
 
+        td, th {
+        border: 1px solid #ffffff;
+        text-align: center;
+        padding: 8px;
+        }
+
+        tr:nth-child(even) {
+        background-color: #A49383;
+        }
+        tr:nth-child(odd) {
+        background-color: #572C1E;
+        }
+        </style>
     </head>
-    <body style="background-color: rgb(0, 0, 0);">
-        <h1>Delicious, home-brewed coffee grinds (table goes below)</h1>
+    <body style="background-color: #8C522E;">
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a class="active" href="menu.html">Menu</a>
+            <a href="schedule.html">Schedule</a>
+          </div>
+
+          <div class="container">
+            <img src="coffeebeans.jpg" alt="Coffee Beans Banner" style="width:100%;">
+            <div class="centered"><h1 style="font-size:64px"><span style="background-color: #c0c0bf"><u>Fresh Coffee.</u></span><br><span style="background-color: #FFFDD0">From Beans Ground In-House.</span></h1>
+            <h2 style="font-size: 44px; color:#572C1E"><span style="background-color: #C1B6B0;">& Delicious, Homemade Baked Goods!</span></h2>
+            </div>
+          </div>
+
+        <h2 style="color:#C08C60; font-size: 90px; margin-top:30px"><u>OUR MENU</u></h2>
+
+        <h3 style="margin-bottom: 40px;">
+            <table>
+                <tr style="background-color: #f68e2d;">
+                  <th>HOT DRINKS</th>
+                </tr>
+              </table>
+        </h3>
+        <h3 style="margin-bottom: 40px;">
+            <table>
+                <tr>
+                  <th><strong>Picture</strong></th>
+                  <th><strong>Item</strong></th>
+                  <th><strong>Description / Nutrition Info</strong></th>
+                  <th><strong>Price</strong></th>
+                </tr>
+                <tr>
+                  <td><img src="latte.jpg" alt="Latte" style="width:20%;"></td>
+                  <td>Latte</td>
+                  <td>A single shot of espresso combined with several ounces of steamed milk to create a rich, creamy beverage that has a more subtle espresso taste. (190 cals)</td>
+                  <td style="font-size: small;">Large: $5.00<br><br>Medium: $4.50<br><br>Small: $3.50</td>
+                </tr>
+                <tr>
+                  <td><img src="blackCoffee.png" alt="Black Coffee" style="width:20%;"></td>
+                  <td>Black Coffee</td>
+                  <td>The classic coffee experience, prepared from our rich, roasted coffee beans. (~2 cals)</td>
+                  <td style="font-size: small;">Large: $5.00<br><br>Medium: $3.50<br><br>Small: $2.50</td>
+                </tr>
+                <tr>
+                  <td><img src="tea.jpeg" alt="Tea" style="width:15%;"></td>
+                  <td>Oolong Tea</td>
+                  <td>A rich & bitter, yet pleasantly sweet tea house classic made from the Camellia sinensis plant. (~3 cals with no sugar or honey)</td>
+                  <td style="font-size: small;">Large: $3.00<br><br>Medium: $2.50<br><br>Small: $2.00</td>
+                </tr>
+              </table>
+        </h3>
+
+        <h3 style="margin-bottom: 40px; margin-top: 100px;">
+            <table>
+                <tr style="background-color: #f68e2d;">
+                  <th>COLD BREW</th>
+                </tr>
+              </table>
+        </h3>
+        <h3>
+            <table>
+                <tr>
+                  <th><strong>Picture</strong></th>
+                  <th><strong>Item</strong></th>
+                  <th><strong>Description / Nutrition Info</strong></th>
+                  <th><strong>Price</strong></th>
+                </tr>
+                <tr>
+                  <td><img src="frappe.jpg" alt="Frappuccino" style="width:25%;"></td>
+                  <td>Peppermint Frappuccino</td>
+                  <td>Frappuccino Roast coffee, mocha sauce, peppermint-flavored syrup, milk and ice, topped with whipped cream and dark-chocolate curls. (430 cals)</td>
+                  <td style="font-size: small;">Large: $3.00<br><br>Medium: $2.50<br><br>Small: $2.00</td>
+                </tr>
+                <tr>
+                  <td><img src="mocha.jpg" alt="Frozen Mocha" style="width:40%;"></td>
+                  <td>Frozen Mocha</td>
+                  <td>Iced coffee in a savory chocolate blend. (240 cals)</td>
+                  <td style="font-size: small;">Large: $3.00<br><br>Medium: $2.50<br><br>Small: $2.00</td>
+                </tr>
+                <tr>
+                  <td><img src="oj.jpg" alt="Orange Juice" style="width:40%;"></td>
+                  <td>Orange Juice</td>
+                  <td>Good ol' OJ! (~112 cals)</td>
+                  <td style="font-size: small;">Large: $3.00<br><br>Medium: $2.50<br><br>Small: $2.00</td>
+                </tr>
+              </table>
+        </h3>
+
+        <h3>
+            <table style="margin-top: 100px;">
+                <tr style="background-color: #f68e2d;">
+                  <th>PASTRIES</th>
+                </tr>
+              </table>
+        </h3>
+        <h3 style="margin-bottom: 40px;">
+            <table>
+                <tr>
+                  <th><strong>Picture</strong></th>
+                  <th><strong>Item</strong></th>
+                  <th><strong>Description / Nutrition Info</strong></th>
+                  <th><strong>Price</strong></th>
+                </tr>
+                <tr>
+                  <td><img src="frenchToast.jpg" alt="French Toast" style="width:40%;"></td>
+                  <td>French Toast</td>
+                  <td>A breakfast and brunch dish made with old bread slices that are soaked in a milk and egg mixture and fried until golden brown and crispy. Loaded with strawberry, blueberry, maple syrup, and whipped cream. (430 cals)</td>
+                  <td style="font-size: small;">4 Slices: $5.00<br><br>3 Slices: $4.50</td>
+                </tr>
+                <tr>
+                  <td><img src="pretzelb.jpg" alt="Pretzel Baguette" style="width:40%;"></td>
+                  <td>Pretzel Baguette</td>
+                  <td>A long, thin type of bread of French origin, now made from sweet pretzel dough & sprinkled with salt! (330 cals)</td>
+                  <td style="font-size: small;">3 Loaves: $4.50<br><br>2 Loaves: $4.00</td>
+                </tr>
+              </table>
+        </h3>
+
+        <h2 style="color:#C08C60; font-size: xx-large; margin-top:100px"><u>OUR PROMISE: SATISFACTION GUARENTEED</u></h2>
+        <p style="font-size:20px; color: #C1B6B0;">If you don't like our coffee, we guarentee we will be satisfied when you leave.</p>
+            <img src="guarantee.png" alt="GUARENTEED!" style="width:15%;">
+
     </body>
 </html>
