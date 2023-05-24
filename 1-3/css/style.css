@@ -7,6 +7,23 @@ h1 {
     font-family: Garamond;
 }
 
+h2 {
+  margin-left: 10px;
+}
+
+h3 {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+body {
+  padding:0;
+  margin:0;
+}
+
 .textOverImage {
     opacity: 0.0;
 }
