@@ -1,0 +1,68 @@
+/*This is a css file comment
+spanning 2 lines*/
+a {
+    color: #d2d900;
+}
+a:hover {
+    color: #f3f863;
+    font-size: 105%;
+}
+a:visited {
+    color:#909135;
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #d2d900;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    border-bottom-style: solid;
+    border-bottom-color: darkblue;
+}
+p {
+    font-size: 24px;
+    text-align: left;
+    color: white;
+}
+hr {
+
+}
+.topnav {
+    overflow: auto;
+    margin-bottom: 20px;
+    background-color: #201f1f;
+    }
+    
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 35px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    
+    .topnav a:hover {
+    background-color: blue;
+    ;
+    color: white;
+    }
+    
+    .topnav a.active {
+    background-color: darkblue;
+    color: white;
+    }
+.LinkImage {
+    opacity: 0.7;
+}
+body {
+    background-color:#1b1122;
+    padding:0;
+    margin:0;
+  }
